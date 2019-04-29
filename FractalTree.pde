@@ -8,7 +8,7 @@ void draw(){
   if(keyPressed)
     seed++;
   background(255, map(mouseY, height, 0, 0, 255), map(mouseY, 0, height, 0, 255));
-  text("Press a key to randomize angles", 40, 40);
+  text("Press any key to randomize angles", 40, 40);
   fill(0);
   translate(width/2, height);
   strokeWeight(2);
